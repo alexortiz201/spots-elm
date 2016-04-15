@@ -1,0 +1,108 @@
+ul, li, h3, h1, h2, p {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+}
+
+/**************
+  Header
+***************/
+.header-container {
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  background: #f2c01c;
+  padding: 15px 0;
+  text-align: center;
+  letter-spacing: 1.5px;
+  position: fixed;
+  height: 35px;
+  width: 100vw;
+  top: 0;
+}
+
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.circle:hover {
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+}
+
+.add-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20pt;
+  font-weight: 100;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.sm-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 16px;
+}
+
+.green {
+  background-color: #50E3C1;
+  color: white;
+}
+
+.blue {
+  background-color: #2C84F8;
+  color: white;
+}
+
+.location-container, .spot-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 0 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.spot-container {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 16px;
+}
+
+.spot-location {
+  color: #bbb;
+}
+.location-info-container {
+  margin-left: 16px;
+}
+
+.location-name, .spot-name {
+  font-weight: 200;
+  font-size: 20pt;
+}
+
+.upvote {
+  display: flex;
+  justify-content: center;
+  font-size: 16pt;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.upvote:hover {
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+}
+
+.upvote-icon {
+  padding-top: 2px;
+}
+
+.location-list {
+  margin-top: 75px;
+}
